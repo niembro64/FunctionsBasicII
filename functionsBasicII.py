@@ -1,5 +1,6 @@
 # 1 Countdown - Create a function that accepts a number as an input. Return a new list that counts down by one, from the number (as the 0th element) down to 0 (as the last element).
 # Example: countdown(5) should return [5,4,3,2,1,0]
+print()
 def createCountDownArray(n):
     a = []
     for i in range (n, 0, -1):
@@ -11,13 +12,19 @@ print(arr)
 
 # 2 Print and Return - Create a function that will receive a list with two numbers. Print the first value and return the second.
 # Example: print_and_return([1,2]) should print 1 and return 2
-
-
+print()
+def print_and_return(a):
+    print(a[0])
+    return a[1]
+print(print_and_return([3,66]))
 
 
 # 3 First Plus Length - Create a function that accepts a list and returns the sum of the first value in the list plus the list's length.
 # Example: first_plus_length([1,2,3,4,5]) should return 6 (first value: 1 + length: 5)
-
+print()
+def first_plus_length(a):
+    return a[0] + len(a)
+print(first_plus_length([1,2,3,4,5]))
 
 
 
